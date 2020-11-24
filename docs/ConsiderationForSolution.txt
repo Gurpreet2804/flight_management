@@ -1,0 +1,15 @@
+A brief about the consideration when I started this problem:  
+
+  
+
+1) Follow single responsibility for classes and methods 
+2) Database access should be generalized as much as possible. 
+3) No duplicate code. 
+4) 100 % code coverage, I started with TDD and then kept on adding new test cases and changing the code as required.  
+5) Used std:: map container to create database as key/value pair, the flight number as key as it’s unique for all flights.  
+6) MultiMap is used to store "Origin city", "Destination City" & "Flight Operator" as key and “Flight Number” as destination, used variadic base classes inheritance to avoid code replications.  
+7) Helper class is used to segregate multimap access from database, it can be easily extended with different methods as per requirement.  
+
+ 
+
+ 
