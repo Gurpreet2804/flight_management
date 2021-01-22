@@ -1,6 +1,5 @@
 #
 # @file
-# @copyright Copyright (C) 2020, KPIT Technologies
 #
 cmake_minimum_required(VERSION 3.10)
 project(flight_management)
